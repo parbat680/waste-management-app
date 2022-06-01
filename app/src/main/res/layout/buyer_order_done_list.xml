@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="20dp"
+    android:outlineSpotShadowColor="@color/black"
+    android:elevation="10dp"
+    android:layout_margin="10dp"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/buyertaskdone"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            android:scaleType="center"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+            <TextView
+                android:id="@+id/username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|center_horizontal"
+                android:fontFamily="@font/aldrich"
+                android:text="Usrname"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:ellipsize="end"
+                android:fontFamily="@font/acme"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:maxLines="3"
+                android:text="Address"
+                android:textColor="@color/black"
+
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/dateOrdered"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="time stamp"
+                android:textColor="#878282"
+                android:layout_gravity="bottom|right"
+                android:paddingLeft="4dp"
+                android:paddingBottom="5dp"
+
+                />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

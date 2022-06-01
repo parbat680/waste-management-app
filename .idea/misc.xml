@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/WasteManagement/app/src/main/res/drawable/allround.xml" value="0.2203125" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/WasteManagement/app/src/main/res/drawable/buyer_editbg.xml" value="0.2203125" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/WasteManagement/app/src/main/res/drawable/home_uppercurve.xml" value="0.2203125" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/WasteManagement/app/src/main/res/drawable/movin.xml" value="0.2203125" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/WasteManagement/app/src/main/res/drawable/spiinerbg.xml" value="0.2203125" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/WasteManagement/app/src/main/res/drawable/spinnerbg.xml" value="0.2203125" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/WasteManagement/app/src/main/res/drawable/tabbg.xml" value="0.11666666666666667" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/WasteManagement/app/src/main/res/drawable/topround.xml" value="0.2203125" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/WasteManagement/app/src/main/res/layout/activity_buyer_home.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/WasteManagement/app/src/main/res/layout/activity_buyer_orders_frament.xml" value="0.19021739130434784" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/WasteManagement/app/src/main/res/layout/activity_buyer_register.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/WasteManagement/app/src/main/res/layout/activity_collect_order.xml" value="0.22" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/WasteManagement/app/src/main/res/layout/activity_collected_orders_past.xml" value="0.18840579710144928" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/WasteManagement/app/src/main/res/layout/activity_contact_us.xml" value="0.22" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/WasteManagement/app/src/main/res/layout/activity_current_order_user.xml" value="0.1408514492753623" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/WasteManagement/app/src/main/res/layout/activity_current_orders.xml" value="0.18840579710144928" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/WasteManagement/app/src/main/res/layout/activity_edit_profile.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/WasteManagement/app/src/main/res/layout/activity_full_article.xml" value="0.22" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/WasteManagement/app/src/main/res/layout/activity_home.xml" value="0.22" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/WasteManagement/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/WasteManagement/app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/WasteManagement/app/src/main/res/layout/activity_reset_pass.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/WasteManagement/app/src/main/res/layout/activity_soldsuccess.xml" value="0.18" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/WasteManagement/app/src/main/res/layout/activity_splash.xml" value="0.1503623188405797" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/WasteManagement/app/src/main/res/layout/activity_user_orders.xml" value="0.14945652173913043" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/WasteManagement/app/src/main/res/layout/articles_xml.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/WasteManagement/app/src/main/res/layout/buyer_order_done_list.xml" value="0.15217391304347827" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/WasteManagement/app/src/main/res/layout/fragment_account_fragment.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/WasteManagement/app/src/main/res/layout/fragment_articles_fragment.xml" value="0.22" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/WasteManagement/app/src/main/res/layout/fragment_b_order.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/WasteManagement/app/src/main/res/layout/fragment_b_past_orders.xml" value="0.16757246376811594" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/WasteManagement/app/src/main/res/layout/fragment_home_fragment.xml" value="0.21764705882352942" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/WasteManagement/app/src/main/res/layout/fragment_menu.xml" value="0.16530797101449277" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/WasteManagement/app/src/main/res/layout/fragment_sell_fragment.xml" value="0.22" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/WasteManagement/app/src/main/res/layout/header.xml" value="0.21" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/WasteManagement/app/src/main/res/layout/home.xml" value="0.17255434782608695" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/WasteManagement/app/src/main/res/layout/img_flipper.xml" value="0.22" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/WasteManagement/app/src/main/res/layout/orderlistad.xml" value="0.16757246376811594" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/WasteManagement/app/src/main/res/layout/spinnerstyle.xml" value="0.16621376811594202" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/WasteManagement/app/src/main/res/layout/view_spinner.xml" value="0.17119565217391305" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/WasteManagement/app/src/main/res/menu/buyer_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/WasteManagement/app/src/main/res/menu/nav_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/NIDAN/AndroidStudioProjects/WasteManagement/app/src/main/res/drawable/border_radius.xml" value="0.11614583333333334" />
+        <entry key="..\:/Users/NIDAN/AndroidStudioProjects/WasteManagement/app/src/main/res/drawable/bt_border.xml" value="0.11614583333333334" />
+        <entry key="..\:/Users/NIDAN/AndroidStudioProjects/WasteManagement/app/src/main/res/drawable/topround.xml" value="0.11614583333333334" />
+        <entry key="..\:/Users/NIDAN/AndroidStudioProjects/WasteManagement/app/src/main/res/layout/activity_home.xml" value="0.22" />
+        <entry key="..\:/Users/NIDAN/AndroidStudioProjects/WasteManagement/app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/Users/NIDAN/AndroidStudioProjects/WasteManagement/app/src/main/res/layout/activity_register.xml" value="0.22" />
+        <entry key="..\:/Users/NIDAN/AndroidStudioProjects/WasteManagement/app/src/main/res/layout/activity_splash.xml" value="0.18" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

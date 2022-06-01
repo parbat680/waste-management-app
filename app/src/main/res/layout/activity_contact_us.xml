@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContactUs">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
+        android:layout_height="231dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/contactus"
+        />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guide : "
+        android:paddingLeft="20dp"
+        android:textColor="@color/black"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:paddingLeft="10dp"
+        android:text="Mr.Rupesh Mishra: "
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteY="479dp" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="Group Members : "
+            android:paddingLeft="20dp"
+            android:textColor="@color/black"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:paddingLeft="10dp"
+            android:text="Parbatsingh.M.Rajpurohit: 9372397615 "
+            android:textSize="20dp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteY="479dp" />
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:paddingLeft="10dp"
+            android:text="Steven Mathew:  8452888866 "
+            android:textSize="20dp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteY="479dp" />
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:paddingLeft="10dp"
+            android:text="Jayesh Kapgate: 8551839297 "
+            android:textSize="20dp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteY="479dp" />
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:paddingLeft="10dp"
+            android:text=" Roshan Nadar: 7304756205 "
+            android:textSize="20dp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteY="479dp" />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

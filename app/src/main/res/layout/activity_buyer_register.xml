@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".buyer_register"
+    android:background="#ECEAEA"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/BRtext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/acme"
+            android:text="Buyer Registration"
+            android:textColor="@color/black"
+            android:textSize="32dp" />
+
+        <EditText
+            android:id="@+id/BRname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/buyer_editbg"
+            android:drawableLeft="@drawable/user_icon"
+            android:drawablePadding="8dp"
+            android:gravity="center_vertical"
+            android:hint="Enter Full Name"
+            android:inputType="text"
+            android:letterSpacing="0.05"
+            android:padding="15dp"
+            android:textSize="20dp"
+            />
+        <EditText
+            android:id="@+id/BRemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/buyer_editbg"
+            android:drawableLeft="@drawable/email_icon"
+            android:drawablePadding="8dp"
+            android:gravity="center_vertical"
+            android:hint="Enter E-Mail Address"
+            android:inputType="textEmailAddress"
+            android:letterSpacing="0.05"
+            android:padding="15dp"
+            android:textSize="20dp"
+            />
+
+        <EditText
+            android:id="@+id/BRphone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/buyer_editbg"
+            android:drawableLeft="@drawable/ic_phone"
+            android:drawablePadding="8dp"
+            android:gravity="center_vertical"
+            android:hint="Phone Number"
+            android:inputType="number"
+            android:letterSpacing="0.05"
+            android:padding="15dp"
+            android:textSize="20dp"
+            />
+
+        <EditText
+            android:id="@+id/BRpass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/buyer_editbg"
+            android:drawableLeft="@drawable/lock_icon"
+            android:drawablePadding="8dp"
+            android:gravity="center_vertical"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:letterSpacing="0.05"
+            android:padding="15dp"
+            android:textSize="20dp"
+            />
+
+        <EditText
+            android:id="@+id/BRconfirmpass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/buyer_editbg"
+            android:drawableLeft="@drawable/lock_icon"
+            android:drawablePadding="8dp"
+            android:gravity="center_vertical"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:letterSpacing="0.05"
+            android:padding="15dp"
+            android:textSize="20dp"
+            />
+
+        <TextView
+            android:id="@+id/BRaddresstext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/acme"
+            android:text="Shop Address "
+            android:textColor="@color/black"
+            android:textSize="22dp" />
+
+        <EditText
+            android:id="@+id/BRaddress1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/buyer_editbg"
+            android:drawablePadding="8dp"
+            android:gravity="center_vertical"
+            android:hint="Address Line 1"
+            android:inputType="text"
+            android:letterSpacing="0.05"
+            android:padding="15dp"
+            android:textSize="20dp"
+            />
+
+        <EditText
+            android:id="@+id/BRaddress2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/buyer_editbg"
+            android:drawablePadding="8dp"
+            android:gravity="center_vertical"
+            android:hint="Address Line 2"
+            android:inputType="text"
+            android:letterSpacing="0.05"
+            android:padding="15dp"
+            android:textSize="20dp"
+            />
+
+        <EditText
+            android:id="@+id/BRcity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/buyer_editbg"
+            android:drawablePadding="8dp"
+            android:gravity="center_vertical"
+            android:hint="City"
+            android:inputType="text"
+            android:letterSpacing="0.05"
+            android:padding="15dp"
+            android:textSize="20dp"
+            />
+
+        <EditText
+            android:id="@+id/BRpincode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/buyer_editbg"
+            android:drawablePadding="8dp"
+            android:gravity="center_vertical"
+            android:hint="Pincode"
+            android:inputType="number"
+            android:letterSpacing="0.05"
+            android:padding="15dp"
+            android:textSize="20dp"
+            />
+
+
+
+
+
+        <CheckBox
+            android:id="@+id/BRterms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/acme"
+            android:text="Terms  and  conditions"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/BRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#2962FF"
+            android:padding="13dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="Register"
+            android:textColor="@color/white"
+            android:textSize="19sp"
+            android:layout_gravity="right"
+            />
+
+    </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
